@@ -1,6 +1,6 @@
 # SVV Flight Dynamics Group 17 - 03 - 2017 Flight 3
 # Main Python File
-# Authors:  Deacon Foulds,
+# Authors:  Deacon Foulds, Dion van Strydonck
 
 
 # Packages
