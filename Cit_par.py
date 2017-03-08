@@ -38,14 +38,14 @@ ih     = -2 * pi / 180   # stabiliser angle of incidence [rad]
 
 # Constant values concerning atmosphere and gravity
 
-rho0   = 1.2250          # air density at sea level [kg/m^3] 
-lambda = -0.0065         # temperature gradient in ISA [K/m]
+rho0   = 1.2250          # air density at sea level [kg/m^3]
+tempgrad  = -0.0065         # temperature gradient in ISA [K/m]
 Temp0  = 288.15          # temperature at sea level in ISA [K]
 R      = 287.05          # specific gas constant [m^2/sec^2K]
 g      = 9.81            # [m/sec^2] (gravity constant)
 
 # air density [kg/m^3]  
-rho    = rho0 * power( ((1+(lambda * hp0 / Temp0))), (-((g / (lambda*R)) + 1)))   
+rho    = rho0 * power( ((1+(tempgrad * hp0 / Temp0))), (-((g / (tempgrad*R)) + 1)))
 W      = m * g            # [N]       (aircraft weight)
 
 # Constant values concerning aircraft inertia
