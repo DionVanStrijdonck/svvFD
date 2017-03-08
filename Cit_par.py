@@ -18,7 +18,7 @@ CD0    =             # Zero lift drag coefficient [ ]
 CLa    =             # Slope of CL-alpha curve [ ]
 
 # Longitudinal stability
-Cma    =             # longitudinal stabilty [ ]
+Cma    =             # longitudinal stability [ ]
 Cmde   =             # elevator effectiveness [ ]
 
 # Aircraft geometry
@@ -30,9 +30,9 @@ lh     = 0.71 * 5.968    # tail length [m]
 c      = 2.0569	          # mean aerodynamic cord [m]
 lh_c   = lh / c	          # [ ]
 b      = 15.911	          # wing span [m]
-bh     = 5.791	          # stabilser span [m]
+bh     = 5.791	          # stabiliser span [m]
 A      = b ** 2 / S      # wing aspect ratio [ ]
-Ah     = bh ** 2 / Sh    # stabilser aspect ratio [ ]
+Ah     = bh ** 2 / Sh    # stabiliser aspect ratio [ ]
 Vh_V   = 1	          # [ ]
 ih     = -2 * pi / 180   # stabiliser angle of incidence [rad]
 
