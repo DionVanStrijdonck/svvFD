@@ -4,8 +4,6 @@
 
 
 # Packages
-
-
 import numpy as np
 from scipy import linalg as lg
 from matplotlib import pyplot as plt
